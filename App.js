@@ -25,10 +25,10 @@ const DisplayImage = () => {
 
 const WordInput = () => {
     const [value, onChangeText] = React.useState('Placeholder text');
-
+ 
     return (
         <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+        style={{ height: 40, borderColor: 'gray', borderWidth: 1}}
          onChangeText={text => onChangeText(text)}
       value={value}
     />
@@ -37,8 +37,11 @@ const WordInput = () => {
 
 export default function App() {
   return (
-    <View>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View style={{
+      height: 200,
+      padding: 50
+    }}>
+      <Text>Forklift certified</Text>
       <StatusBar/>
     </View>
   );
