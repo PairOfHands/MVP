@@ -17,7 +17,7 @@ const WordInput = () => {
  
     return (
         <TextInput
-        style={{ height: 40, borderColor: 'black', borderWidth: 1, backgroundColor: 'gray'}}
+        style={{ height: 48, borderColor: 'black', borderWidth: 1, backgroundColor: '#FEFEFE'}}
          onChangeText={text => onChangeText(text)}
       value={value}
     />
@@ -27,7 +27,7 @@ const WordInput = () => {
 export default function App() {
   return (
     <View style={{
-      height: 200,
+      height: 148,
       padding: 50,
       backgroundColor: '#B529F8'
     }}> 
