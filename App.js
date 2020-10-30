@@ -17,20 +17,21 @@ const WordInput = () => {
  
     return (
         <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1}}
+        style={{ height: 40, borderColor: 'black', borderWidth: 1, backgroundColor: 'gray'}}
          onChangeText={text => onChangeText(text)}
       value={value}
     />
     )
-}
+};
 
 export default function App() {
   return (
     <View style={{
       height: 200,
-      padding: 50
-    }}>
-      <Text>Forklift certified</Text>
+      padding: 50,
+      backgroundColor: '#B529F8'
+    }}> 
+    <WordInput />
       <StatusBar/>
     </View>
   );
