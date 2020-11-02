@@ -26,16 +26,12 @@ const WordInput = () => {
 
 export default function App() {
   return (
-<<<<<<< HEAD
-    <View>
-      <Text>Sort by</Text>
-=======
     <View style={{
       height: 200,
       padding: 50
     }}>
-      <Text>Forklift certified</Text>
->>>>>>> ee41921afab621b5330ad275f7484379a42b3761
+      <Text>Sort By</Text>
+      <WordInput />
       <StatusBar/>
     </View>
   );
