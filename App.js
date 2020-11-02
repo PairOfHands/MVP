@@ -38,7 +38,7 @@ const WordInput = () => {
 export default function App() {
   return (
     <View>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Sort by</Text>
       <StatusBar/>
     </View>
   );
