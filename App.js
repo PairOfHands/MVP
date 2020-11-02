@@ -27,7 +27,7 @@ const WordInput = () => {
 export default function App() {
   return (
     <View style={{
-      height: 200,
+      height: 46,
       padding: 50,
       backgroundColor:"#B529F8",
     }}>
