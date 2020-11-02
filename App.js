@@ -17,7 +17,7 @@ const WordInput = () => {
  
     return (
         <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1}}
+        style={{ height: 46, borderColor: 'black', borderWidth: 1, backgroundColor:'gray' }}
          onChangeText={text => onChangeText(text)}
       value={value}
     />
@@ -27,14 +27,12 @@ const WordInput = () => {
 export default function App() {
   return (
     <View style={{
-      height: 46,
+      height: 80,
       padding: 50,
       backgroundColor:"#B529F8",
     }}>
-       <WordInput
-       style={{backgroundColor: "gray"}}
-       />
-      <Text>Sort By</Text>
+       <WordInput/>
+      <Text style={{height:100}}> Sort By </Text>
       <StatusBar/>
     </View>
   );
