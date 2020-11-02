@@ -28,10 +28,13 @@ export default function App() {
   return (
     <View style={{
       height: 200,
-      padding: 50
+      padding: 50,
+      backgroundColor:"#B529F8",
     }}>
+       <WordInput
+       style={{backgroundColor: "gray"}}
+       />
       <Text>Sort By</Text>
-      <WordInput />
       <StatusBar/>
     </View>
   );
