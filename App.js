@@ -32,7 +32,6 @@ export default function App() {
       backgroundColor:"#B529F8",
     }}>
        <WordInput/>
-      <Text style={{height:100}}> Sort By </Text>
       <StatusBar/>
     </View>
   );
