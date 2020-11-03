@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, VirtualizedList, Image, TextInput  } from 'react-native';
 
-export function topBar () {
+export default function topBar () {
 const WordInput = () => {
     const [value, onChangeText] = React.useState('Placeholder text');
  

@@ -5,12 +5,12 @@ import topBar from './components/topBar.js'
 
 export default function App() {
   return (
+    {topBar},
     <View style={{
       height: 80,
       padding: 50,
       backgroundColor:"#B529F8",
     }}>
-       {topBar}
       <StatusBar/>
     </View>
   );
