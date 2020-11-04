@@ -66,7 +66,7 @@ const Page = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: StatusBar.currentHeight || 100,
+    marginTop: StatusBar.currentHeight || 125,
     width: 300,
   },
   item: {
