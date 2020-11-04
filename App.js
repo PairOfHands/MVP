@@ -66,7 +66,8 @@ const Page = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: StatusBar.currentHeight || 0,
+    marginTop: StatusBar.currentHeight || 100,
+    width: 300,
   },
   item: {
     padding: 20,
@@ -75,6 +76,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32,
+    backgroundColor: '#CBC3C0'
   },
 });
 
