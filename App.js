@@ -11,7 +11,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import WordInput from "./components/topBar";
-import RateList from "./components/List";
+import AppList from "./components/List";
 
 export default function App() {
   return (
