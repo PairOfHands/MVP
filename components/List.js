@@ -34,7 +34,7 @@ export default AppList = () => {
     const [selectedId, setSelectedId] = useState(null);
 
     renderItem = ({ item }) => {
-      const backgroundColor = item.id === selectedId ? "#6e3b6e" : "#f9c2ff";
+      backgroundColor = item.id === selectedId ? "#6e3b6e" : "#f9c2ff";
 
       return (
         <Item
