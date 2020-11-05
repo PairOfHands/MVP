@@ -21,7 +21,8 @@ export default function App() {
         backgroundColor: "#B529F8",
       }}
     >
-      <WordInput />
+      <WordInput />,
+      <RateList />
       <StatusBar />
     </View>
   );
