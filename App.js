@@ -11,6 +11,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import WordInput from "./components/topBar";
+import RateList from "./components/List";
 
 export default function App() {
   return (
@@ -21,8 +22,8 @@ export default function App() {
         backgroundColor: "#B529F8",
       }}
     >
-      <WordInput />,
-      <RateList />
+      <WordInput />
+      <AppList />
       <StatusBar />
     </View>
   );

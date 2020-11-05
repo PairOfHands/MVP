@@ -3,7 +3,7 @@ import React from "react";
 import { StyleSheet, Text, View, TextInput } from "react-native";
 
 export default WordInput = () => {
-  const [value, onChangeText] = React.useState("Placeholder text");
+  const [value, onChangeText] = React.useState("");
 
   return (
     <TextInput

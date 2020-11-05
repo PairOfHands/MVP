@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default RateList = () => {
+export default AppList = () => {
   DATA = [
     {
       id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
@@ -57,7 +57,7 @@ export default RateList = () => {
     );
   };
 
-  const styles = StyleSheet.create({
+  styles = StyleSheet.create({
     container: {
       flex: 1,
       marginTop: StatusBar.currentHeight || 0,
