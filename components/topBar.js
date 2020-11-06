@@ -6,7 +6,14 @@ export default WordInput = () => {
   const [value, onChangeText] = React.useState("");
 
   return (
-    <View style={{ height: 80, padding: 70, backgroundColor: "#B529F8" }}>
+    <View
+      style={{
+        height: 80,
+        padding: 70,
+        backgroundColor: "#B529F8",
+        borderRadius: 8,
+      }}
+    >
       <TextInput
         style={{
           height: 46,

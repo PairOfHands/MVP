@@ -58,13 +58,15 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
   },
   item: {
+    height: 150,
     width: 150,
     padding: 20,
     marginVertical: 16,
     marginHorizontal: 16,
     backgroundColor: "#CBC3C0",
+    borderRadius: 8,
   },
   title: {
-    fontSize: 32,
+    fontSize: 24,
   },
 });
