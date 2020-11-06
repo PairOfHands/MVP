@@ -19,8 +19,8 @@ export default WordInput = () => {
           height: 46,
           borderColor: "black",
           borderWidth: 1,
-          backgroundColor: "#FEFEFE",
           opacity: 75,
+          backgroundColor: "#FEFEFE",
         }}
         onChangeText={(text) => onChangeText(text)}
         value={value}
