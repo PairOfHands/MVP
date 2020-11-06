@@ -6,7 +6,15 @@ export default SortMenu = () => {
   const [selectedId, setSelectedId] = useState("");
   return (
     <View>
-      <Text>Sort By</Text>
+      <Text
+        style={{
+          fontSize: 16,
+          lineHeight: 20,
+          textDecorationLine: "underline",
+        }}
+      >
+        Sort By
+      </Text>
     </View>
   );
 };
