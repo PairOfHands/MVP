@@ -12,6 +12,7 @@ import {
 } from "react-native";
 import WordInput from "./components/topBar";
 import AppList from "./components/List";
+import SortMenu from "./components/sortBy";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       }}
     >
       <WordInput />
+      <SortMenu />
       <AppList />
       <StatusBar />
     </View>

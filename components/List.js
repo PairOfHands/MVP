@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: "row",
-    marginTop: StatusBar.currentHeight || 40,
+    marginTop: StatusBar.currentHeight || 0,
   },
   item: {
     height: 150,
