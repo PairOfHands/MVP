@@ -17,9 +17,7 @@ export default function App() {
   return (
     <View
       style={{
-        height: 80,
-        padding: 70,
-        backgroundColor: "#B529F8",
+        flex: 1,
       }}
     >
       <WordInput />

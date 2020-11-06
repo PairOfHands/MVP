@@ -6,16 +6,18 @@ export default WordInput = () => {
   const [value, onChangeText] = React.useState("");
 
   return (
-    <TextInput
-      style={{
-        height: 46,
-        borderColor: "black",
-        borderWidth: 1,
-        backgroundColor: "#FEFEFE",
-        opacity: 75,
-      }}
-      onChangeText={(text) => onChangeText(text)}
-      value={value}
-    />
+    <View style={{ height: 80, padding: 70, backgroundColor: "#B529F8" }}>
+      <TextInput
+        style={{
+          height: 46,
+          borderColor: "black",
+          borderWidth: 1,
+          backgroundColor: "#FEFEFE",
+          opacity: 75,
+        }}
+        onChangeText={(text) => onChangeText(text)}
+        value={value}
+      />
+    </View>
   );
 };
