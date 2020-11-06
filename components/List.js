@@ -47,6 +47,12 @@ export default AppList = () => {
         keyExtractor={(item) => item.id}
         extraData={selectedId}
       />
+      <FlatList
+        data={DATA}
+        renderItem={renderItem}
+        keyExtractor={(item) => item.id}
+        extraData={selectedId}
+      />
     </SafeAreaView>
   );
 };
@@ -54,7 +60,7 @@ export default AppList = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "column",
+    flexDirection: "row",
     marginTop: StatusBar.currentHeight || 40,
   },
   item: {
@@ -62,7 +68,7 @@ const styles = StyleSheet.create({
     width: 150,
     padding: 20,
     marginVertical: 16,
-    marginHorizontal: 16,
+    marginHorizontal: 22,
     backgroundColor: "#CBC3C0",
     borderRadius: 8,
   },
