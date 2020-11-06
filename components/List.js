@@ -46,12 +46,7 @@ export default AppList = () => {
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
         extraData={selectedId}
-      />
-      <FlatList
-        data={DATA}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id}
-        extraData={selectedId}
+        numColumns={2}
       />
     </SafeAreaView>
   );
