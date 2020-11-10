@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Dropdown,  } from "react-native";
 
 export default SortMenu = () => {
   const [selectedId, setSelectedId] = useState("");
@@ -10,7 +10,7 @@ export default SortMenu = () => {
         style={{
           fontSize: 16,
           lineHeight: 20,
-          textDecorationLine: "underline",
+          textDecorationLine: "underline"
         }}
       >
         Sort By
