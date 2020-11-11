@@ -11,12 +11,18 @@ export default SortMenu = () => {
       <DropDownPicker
     items={[
         {label: 'Item 1', value: 'item1'},
-        {label: 'Item 2', value: 'item2'},
+        {label: 'Item 2', value: 'item2', selected: true},
     ]}
-    defaultIndex={0}
+    defaultIndex={1}
     containerStyle={{height: 40}}
     onChangeItem={item => console.log(item.label, item.value)}
+    defaultValue="Item2"
+    defaultNull
+    placeholder="Select an item"
 />
     </View>
   );
 };
+
+//https://reactnativeexample.com/a-picker-dropdown-component-for-react-native/
+//link to go back to
