@@ -8,15 +8,15 @@ export default SortMenu = () => {
   const [selectedId, setSelectedId] = useState("");
   return (
     <View>
-      <Text
-        style={{
-          fontSize: 16,
-          lineHeight: 20,
-          textDecorationLine: "underline"
-        }}
-      >
-        Sort By
-      </Text>
+      <DropDownPicker
+    items={[
+        {label: 'Item 1', value: 'item1'},
+        {label: 'Item 2', value: 'item2'},
+    ]}
+    defaultIndex={0}
+    containerStyle={{height: 40}}
+    onChangeItem={item => console.log(item.label, item.value)}
+/>
     </View>
   );
 };
