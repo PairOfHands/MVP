@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import MainScreen from "./screens/MainScreen";
+import RatingScreen from "./screens/RatingScreen";
 
 const Stack = createStackNavigator();
 
