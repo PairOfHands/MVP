@@ -34,7 +34,7 @@ export default AppList = () => {
 
     return (
       <TouchableOpacity
-        onPress={() => navigation.navigate({ id: 1 })}
+        onPress={() => navigation.navigate("Rating", { id: 1 })}
         style={[styles.item]}
       >
         <Text style={styles.title}>{item.title}</Text>

@@ -14,6 +14,12 @@ export default function App() {
         flex: 1,
       }}
     >
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Main" component={MainScreen} />
+          <Stack.Screen name="Rating" component={RatingScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
       <MainScreen />
     </View>
   );
