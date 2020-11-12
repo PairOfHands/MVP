@@ -10,9 +10,13 @@ import {
   SafeAreaView,
   TouchableOpacity,
 } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
 import WordInput from "./components/topBar";
 import AppList from "./components/List";
 import SortMenu from "./components/sortBy";
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
