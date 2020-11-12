@@ -1,10 +1,10 @@
 import { StatusBar } from "expo-status-bar";
-import React, { useState } from "react";
+import React from "react";
 import WordInput from "./components/topBar";
 import AppList from "./components/List";
 import SortMenu from "./components/sortBy";
 
-function MainScreen() {
+function MainScreen({ navigation, route }) {
   return (
     <View
       style={{
