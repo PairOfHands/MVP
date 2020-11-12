@@ -33,7 +33,10 @@ export default AppList = () => {
     backgroundColor = item.id === selectedId ? "#CBC3C0" : "#CBC3C0";
 
     return (
-      <TouchableOpacity onPress={() => {}} style={[styles.item]}>
+      <TouchableOpacity
+        onPress={() => navigation.navigate({ id: 1 })}
+        style={[styles.item]}
+      >
         <Text style={styles.title}>{item.title}</Text>
       </TouchableOpacity>
     );
