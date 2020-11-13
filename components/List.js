@@ -26,7 +26,7 @@ const DATA = [
   },
 ];
 
-export default AppList = () => {
+export default AppList = ({ navigation }) => {
   const [selectedId, setSelectedId] = useState(null);
 
   renderItem = ({ item }) => {

@@ -10,18 +10,11 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-      }}
-    >
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Main" component={MainScreen} />
-          <Stack.Screen name="Rating" component={RatingScreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
-      <MainScreen />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Main" component={MainScreen} />
+        <Stack.Screen name="Rating" component={RatingScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
