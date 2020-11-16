@@ -24,5 +24,3 @@ export default SortMenu = () => {
   );
 };
 
-//https://reactnativeexample.com/a-picker-dropdown-component-for-react-native/
-//link to go back to
