@@ -12,6 +12,7 @@ export default BaileyBud = () => {
         borderRadius: 8,
       }}
     >
+        <Text>Bailey Buddy</Text>
     </View>
   );
 };
