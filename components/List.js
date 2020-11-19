@@ -47,7 +47,7 @@ export default AppList = ({ navigation }) => {
       <FlatList
         data={DATA}
         renderItem={renderItem}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.title}
         extraData={selectedId}
         numColumns={2}
       />
