@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import FirstApp from "../components/reviewName";
+import FirstApp from "../components/nameBar";
 
 const Data = [{ id: 1 }];
 
