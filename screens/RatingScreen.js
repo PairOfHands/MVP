@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import BaileyBud from "../components/reviewName";
+import FirstApp from "../components/reviewName";
 
 const Data = [{ id: 1 }];
 
 function RatingScreen({ navigation, route }) {
   return (
     <View>
-      <BaileyBud/>
+      <FirstApp />
     </View>
   );
 }

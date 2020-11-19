@@ -1,8 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View} from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
-export default BaileyBud = () => {
+export default FirstApp = () => {
   return (
     <View
       style={{
@@ -12,7 +12,7 @@ export default BaileyBud = () => {
         borderRadius: 8,
       }}
     >
-        <Text>Bailey Buddy</Text>
+      <Text>Bailey Buddy</Text>
     </View>
   );
 };
