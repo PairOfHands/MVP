@@ -12,7 +12,11 @@ export default FirstApp = () => {
         borderRadius: 8,
       }}
     >
-      <Text>Bailey Buddy</Text>
+      <View>
+        <Text style={{ height: 30, fontSize: 24, width: 160 }}>
+          Bailey Buddy
+        </Text>
+      </View>
     </View>
   );
 };

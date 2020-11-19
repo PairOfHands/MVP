@@ -6,7 +6,11 @@ const Data = [{ id: 1 }];
 
 function RatingScreen({ navigation, route }) {
   return (
-    <View>
+    <View
+      style={{
+        flex: 1,
+      }}
+    >
       <FirstApp />
     </View>
   );
