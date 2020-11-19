@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import FirstApp from "../components/nameBar";
-import appRev from "../components/appDesc";
+import AppRev from "../components/appDesc";
 
 const Data = [{ id: 1 }];
 
@@ -13,7 +13,7 @@ function RatingScreen({ navigation, route }) {
       }}
     >
       <FirstApp />
-      <appRev />
+      <AppRev />
     </View>
   );
 }
