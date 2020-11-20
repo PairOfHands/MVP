@@ -1,4 +1,20 @@
 import React from "react";
-import { View } from "react-native";
+import { View, Image, StyleSheet } from "react-native";
 
-export default AppPic = () => {};
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+  },
+  tinyLogo: {
+    width: 50,
+    height: 50,
+  },
+});
+
+export default AppPic = () => {
+  return (
+    <View style={styles.container}>
+      <Image source={require("../assets/favicon.png")} />
+    </View>
+  );
+};
