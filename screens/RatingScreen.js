@@ -17,7 +17,7 @@ function RatingScreen({ navigation, route }) {
       <FirstApp />
       <AppPic />
       <AppRev />
-      <SeeRev />
+      <SeeRev navigation={navigation} />
     </View>
   );
 }

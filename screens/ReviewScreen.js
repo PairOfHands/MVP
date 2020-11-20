@@ -9,7 +9,9 @@ function ReviewScreen({ navigation, route }) {
       style={{
         flex: 1,
       }}
-    ></View>
+    >
+      <Text>this is a review</Text>
+    </View>
   );
 }
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   StyleSheet,
   Button,
@@ -7,18 +7,6 @@ import {
   Text,
   Alert,
 } from "react-native";
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    marginHorizontal: 16,
-  },
-  title: {
-    textAlign: "center",
-    marginVertical: 8,
-  },
-});
 
 export default SeeRev = ({ navigation }) => {
   return (
@@ -32,3 +20,15 @@ export default SeeRev = ({ navigation }) => {
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    marginHorizontal: 16,
+  },
+  title: {
+    textAlign: "center",
+    marginVertical: 8,
+  },
+});
