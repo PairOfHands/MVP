@@ -4,9 +4,9 @@ import { StyleSheet, Text, View, SafeAreaView, ScrollView } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    maxHeight: 300,
   },
   scrollView: {
-    backgroundColor: "white",
     paddingVertical: 20,
   },
   text: {
