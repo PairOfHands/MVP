@@ -20,13 +20,13 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SeeRev = () => {
+export default SeeRev = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <View>
         <Button
           title="Press me"
-          onPress={() => Alert.alert("Simple Button pressed")}
+          onPress={() => navigation.navigate("Review", { id: 2 })}
         />
       </View>
     </SafeAreaView>
