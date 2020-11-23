@@ -5,6 +5,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import MainScreen from "./screens/MainScreen";
 import RatingScreen from "./screens/RatingScreen";
+import ReviewScreen from "./screens/ReviewScreen"
 
 const Stack = createStackNavigator();
 
@@ -14,6 +15,7 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="Main" component={MainScreen} />
         <Stack.Screen name="Rating" component={RatingScreen} />
+        <Stack.Screen name="Review" component={ReviewScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
