@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
+import AppReviews from "./components/theReviews";
 
 const Data = [{ id: 2 }];
 
@@ -10,7 +11,7 @@ function ReviewScreen({ navigation, route }) {
         flex: 1,
       }}
     >
-      <Text>this is a review</Text>
+      <AppReviews />
     </View>
   );
 }
