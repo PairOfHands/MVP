@@ -33,10 +33,7 @@ export default AppReviews = ({ navigation }) => {
     backgroundColor = item.id === selectedId ? "#CBC3C0" : "#CBC3C0";
 
     return (
-      <TouchableOpacity
-        onPress={() => navigation.navigate("Rating", { id: 1 })}
-        style={[styles.item]}
-      >
+      <TouchableOpacity style={[styles.item]}>
         <Text style={styles.title}>{item.title}</Text>
       </TouchableOpacity>
     );

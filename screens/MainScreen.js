@@ -13,7 +13,6 @@ function MainScreen({ navigation, route }) {
       }}
     >
       <WordInput />
-      <SortMenu />
       <AppList navigation={navigation} />
       <StatusBar />
     </View>

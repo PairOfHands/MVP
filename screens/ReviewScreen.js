@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import AppReviews from "./components/theReviews";
+import AppReviews from "../components/theReviews";
 
 const Data = [{ id: 2 }];
 
