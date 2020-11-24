@@ -58,8 +58,8 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
   },
   item: {
-    height: 150,
-    width: 150,
+    height: 85,
+    width: 250,
     padding: 20,
     marginVertical: 16,
     marginHorizontal: 20,
