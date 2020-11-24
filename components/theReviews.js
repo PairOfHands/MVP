@@ -11,18 +11,23 @@ import {
 const DATA = [
   {
     title: "Jim E. John",
+    name: "good app good app I like this app-",
   },
   {
     title: "Original Name",
+    name: "this app is like my name...Original",
   },
   {
     title: "Garet",
+    name: "words",
   },
   {
     title: "Anon. E Mouse",
+    name: "anon words",
   },
   {
     title: "Ricardo Eduardo",
+    name: "my name",
   },
 ];
 
@@ -35,6 +40,7 @@ export default AppReviews = ({ navigation }) => {
     return (
       <TouchableOpacity style={[styles.item]}>
         <Text style={styles.title}>{item.title}</Text>
+        <Text style={styles.name}>{item.name}</Text>
       </TouchableOpacity>
     );
   };
@@ -68,5 +74,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
+  },
+  name: {
+    fontSize: 13,
   },
 });
