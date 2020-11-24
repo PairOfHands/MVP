@@ -13,7 +13,7 @@ export default SeeRev = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <View>
         <Button
-          title="Press me"
+          title="See reviews"
           onPress={() => navigation.navigate("Review", { id: 2 })}
         />
       </View>
