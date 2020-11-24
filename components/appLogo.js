@@ -4,6 +4,7 @@ import { View, Image, StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     paddingTop: 50,
+    marginHorizontal: 20,
   },
   tinyLogo: {
     width: 100,

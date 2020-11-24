@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     maxHeight: 300,
+    marginHorizontal: 20,
   },
   scrollView: {
     paddingVertical: 20,
