@@ -11,18 +11,23 @@ import {
 const DATA = [
   {
     title: "Bailey Buddy",
+    screen: "Rating",
   },
   {
     title: "Decent App",
+    screen: "Main",
   },
   {
     title: "Meh App",
+    screen: "Main",
   },
   {
     title: "Bad App",
+    screen: "Main",
   },
   {
     title: "Unrated App",
+    screen: "Main",
   },
 ];
 
@@ -34,7 +39,7 @@ export default AppList = ({ navigation }) => {
 
     return (
       <TouchableOpacity
-        onPress={() => navigation.navigate("Rating", { id: 1 })}
+        onPress={() => navigation.navigate(item.screen)}
         style={[styles.item]}
       >
         <Text style={styles.title}>{item.title}</Text>
