@@ -1,20 +1,21 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, SafeAreaView } from "react-native";
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 0.67,
+    marginHorizontal: 20,
+  },
   baseText: {
     fontWeight: "bold",
-  },
-  innerText: {
-    color: "red",
+    lineHeight: 250,
   },
 });
 
 export default AppRate = ({}) => {
   return (
-    <Text style={styles.baseText}>
-      I am bold
-      <Text style={styles.innerText}> and red</Text>
-    </Text>
+    <SafeAreaView style={styles.container}>
+      <Text style={styles.baseText}> howdy pardner</Text>
+    </SafeAreaView>
   );
 };

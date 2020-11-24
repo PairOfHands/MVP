@@ -12,6 +12,8 @@ export default SeeRev = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <View>
+        <Text>AppRaisal score: 100</Text>
+        <Text>User score:100</Text>
         <Button
           title="See reviews"
           onPress={() => navigation.navigate("Review", { id: 2 })}
