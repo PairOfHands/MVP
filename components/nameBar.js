@@ -17,8 +17,8 @@ export default FirstApp = () => {
             height: 40,
             fontSize: 36,
             width: 220,
-            marginHorizontal: "15%",
-            marginVertical: "-5%",
+            marginHorizontal: 40,
+            marginVertical: -20,
           }}
         >
           Bailey Buddy

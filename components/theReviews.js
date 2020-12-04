@@ -11,7 +11,7 @@ import {
 const DATA = [
   {
     title: "Jim E. John",
-    name: "good app good app I like this app-",
+    name: "good app good app I like this app",
   },
   {
     title: "Original Name",
@@ -64,8 +64,8 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
   },
   item: {
-    height: 85,
-    width: "55%",
+    height: 90,
+    width: 240,
     padding: 20,
     marginVertical: 16,
     marginHorizontal: 20,
