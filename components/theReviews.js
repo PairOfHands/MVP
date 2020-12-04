@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   item: {
     height: 85,
-    width: 250,
+    width: "55%",
     padding: 20,
     marginVertical: 16,
     marginHorizontal: 20,
