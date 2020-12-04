@@ -14,10 +14,10 @@ export default FirstApp = () => {
       <View>
         <Text
           style={{
-            height: 40,
+            height: 45,
             fontSize: 36,
             width: 220,
-            marginHorizontal: 40,
+            marginHorizontal: 30,
             marginVertical: -20,
           }}
         >
