@@ -5,7 +5,7 @@
     "description": "this is a demo app...",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/512.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
