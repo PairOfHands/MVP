@@ -7,7 +7,7 @@ export default FirstApp = () => {
       style={{
         height: 80,
         padding: 70,
-        backgroundColor: "#B529F8",
+        backgroundColor: "#EDCDF9",
         borderRadius: 8,
       }}
     >
