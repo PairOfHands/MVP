@@ -10,7 +10,7 @@ export default WordInput = () => {
       style={{
         height: 80,
         padding: 70,
-        backgroundColor: "#EDCDF9",
+        backgroundColor: "#BE81CA",
         borderRadius: 8,
       }}
     >
