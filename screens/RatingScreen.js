@@ -12,6 +12,7 @@ function RatingScreen({ navigation, route }) {
     <View
       style={{
         flex: 1,
+        backgroundColor: "#E4E7E7",
       }}
     >
       <FirstApp />

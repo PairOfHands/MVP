@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     backgroundColor: "#CBC3C0",
     borderRadius: 8,
+    borderWidth: 0.5,
   },
   title: {
     fontSize: 24,
