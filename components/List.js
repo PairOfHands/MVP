@@ -55,6 +55,7 @@ export default AppList = ({ navigation }) => {
         keyExtractor={(item) => item.title}
         extraData={selectedId}
         numColumns={2}
+        contentContainerStyle={styles.content}
       />
     </SafeAreaView>
   );
@@ -63,15 +64,17 @@ export default AppList = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "row",
     marginTop: StatusBar.currentHeight || 0,
+  },
+  content: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
   },
   item: {
     height: 150,
     width: 150,
     padding: 20,
-    marginVertical: 16,
-    marginHorizontal: 20,
     backgroundColor: "#CBC3C0",
     borderRadius: 8,
     borderWidth: 0.5,
