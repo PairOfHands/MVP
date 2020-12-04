@@ -12,7 +12,15 @@ export default FirstApp = () => {
       }}
     >
       <View>
-        <Text style={{ height: 30, fontSize: 24, width: 160 }}>
+        <Text
+          style={{
+            height: 40,
+            fontSize: 36,
+            width: 220,
+            marginHorizontal: "15%",
+            marginVertical: "-5%",
+          }}
+        >
           Bailey Buddy
         </Text>
       </View>
