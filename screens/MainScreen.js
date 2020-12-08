@@ -3,7 +3,6 @@ import React from "react";
 import { View } from "react-native";
 import WordInput from "../components/topBar";
 import AppList from "../components/List";
-import SortMenu from "../components/sortBy";
 
 function MainScreen({ navigation, route }) {
   return (
