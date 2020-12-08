@@ -12,22 +12,27 @@ const DATA = [
   {
     title: "Jim E. John",
     name: "good app good app I like this app",
+    screen: "1-Rev"
   },
   {
     title: "Original Name",
     name: "this app is like my name...Original",
+    screen: "Review"
   },
   {
     title: "Garet",
     name: "words",
+    screen: "Review"
   },
   {
     title: "Anon. E Mouse",
     name: "anon words",
+    screen: "Review"
   },
   {
     title: "Ricardo Eduardo",
     name: "my name",
+    screen: "Review"
   },
 ];
 
