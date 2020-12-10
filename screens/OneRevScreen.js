@@ -3,6 +3,7 @@ import React from "react";
 import { View } from "react-native";
 import OneRev from "../components/revName";
 import RevDesc from "../components/reviewDesc";
+import RateRev from "../components/rateReview";
 
 function OneRevScreen({ navigation, route }) {
   return (
@@ -14,6 +15,7 @@ function OneRevScreen({ navigation, route }) {
     >
       <OneRev />
       <RevDesc />
+      <RateRev />
       <StatusBar />
     </View>
   );
