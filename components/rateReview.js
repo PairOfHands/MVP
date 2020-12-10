@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 export default RateRev = () => {
   return (
     <View style={styles.container}>
-      <Text>hello</Text>
+      <Text>was this review helpful</Text>
     </View>
   );
 };

@@ -8,9 +8,6 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 24,
     marginHorizontal: 20,
-    backgroundColor: "#CBC3C0",
-    borderRadius: 8,
-    borderWidth: 0.5,
   },
   title: { fontSize: 16, width: "90%", marginHorizontal: 21 },
   scrollView: {
