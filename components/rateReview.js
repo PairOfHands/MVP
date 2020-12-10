@@ -1,5 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  SafeAreaView,
+  Button,
+  Alert,
+} from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -12,13 +19,14 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 0.5,
   },
-  title: {},
 });
 
 export default RateRev = () => {
   return (
     <View style={styles.container}>
       <Text>was this review helpful</Text>
+      <Button title="Yes" />
+      <Button title="No" onPress={() => Alert.alert("Simple Button pressed")} />
     </View>
   );
 };
