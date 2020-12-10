@@ -12,26 +12,31 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 0.5,
   },
-  title: { fontSize: 16 },
+  title: { fontSize: 16, width: "90%", marginHorizontal: 21 },
+  scrollView: {
+    paddingVertical: 20,
+  },
 });
 
 export default RevDesc = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>
-        Dori me, interimo Ayapare, dorime Ameno, ameno Latire, latiremo Dori me
-        Ameno Omenare imperavi ameno Dimere, dimere matiro Matiremo, ameno
-        Omenare imperavi emunari Ameno Omenare imperavi emunari Ameno Ameno dore
-        Ameno dori me Ameno dori me Ameno dom Dori me reo Ameno dori me Ameno
-        dori me Dori me am Ameno Ameno Ameno Omenare imperavi ameno Dimere
-        dimere martiro Martiremo, ameno Omenare imperavi emunari Ameno Omenare
-        imperavi emunari Ameno Ameno dore Ameno dori me Ameno dori me Ameno dom
-        Dori me reo Ameno dori me Ameno dori me Dori me am Ameno, ameno Ameno
-        dori me Ameno dori me Dori me Ameno Ameno dore Ameno dori me Ameno dori
-        me Ameno dom Dori me reo Ameno dori me Ameno dori me Ameno, ameno Ameno
-        Ameno dori me Ameno Ameno dori me Ameno dom Dori me reo, ameno Ameno
-        dori me Ameno, ameno dori me
-      </Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <ScrollView style={styles.scrollView}>
+        <Text style={styles.title}>
+          Dori me, interimo Ayapare, dorime Ameno, ameno Latire, latiremo Dori
+          me Ameno Omenare imperavi ameno Dimere, dimere matiro Matiremo, ameno
+          Omenare imperavi emunari Ameno Omenare imperavi emunari Ameno Ameno
+          dore Ameno dori me Ameno dori me Ameno dom Dori me reo Ameno dori me
+          Ameno dori me Dori me am Ameno Ameno Ameno Omenare imperavi ameno
+          Dimere dimere martiro Martiremo, ameno Omenare imperavi emunari Ameno
+          Omenare imperavi emunari Ameno Ameno dore Ameno dori me Ameno dori me
+          Ameno dom Dori me reo Ameno dori me Ameno dori me Dori me am Ameno,
+          ameno Ameno dori me Ameno dori me Dori me Ameno Ameno dore Ameno dori
+          me Ameno dori me Ameno dom Dori me reo Ameno dori me Ameno dori me
+          Ameno, ameno Ameno Ameno dori me Ameno Ameno dori me Ameno dom Dori me
+          reo, ameno Ameno dori me Ameno, ameno dori me
+        </Text>
+      </ScrollView>
+    </SafeAreaView>
   );
 };
