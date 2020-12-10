@@ -12,7 +12,7 @@ function ReviewScreen({ navigation, route }) {
         backgroundColor: "#E4E7E7",
       }}
     >
-      <AppReviews />
+      <AppReviews navigation={navigation} />
     </View>
   );
 }

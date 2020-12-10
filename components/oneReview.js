@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default OneRev = ({ navigation }) => {
+export default OneRev = () => {
   return (
     <View style={styles.container}>
       <Text>hello</Text>
