@@ -11,12 +11,12 @@ import {
 const DATA = [
   {
     title: "Jim E. John",
-    name: "good app good app I like this app",
+    name: "good app",
     screen: "Single",
   },
   {
     title: "Original Name",
-    name: "this app is like my name...Original",
+    name: "this app is like my name...",
     screen: "Review",
   },
   {
@@ -26,7 +26,7 @@ const DATA = [
   },
   {
     title: "Anon. E Mouse",
-    name: "anon words",
+    name: "anonymous words",
     screen: "Review",
   },
   {
