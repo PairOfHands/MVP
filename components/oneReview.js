@@ -1,6 +1,17 @@
 import React from "react";
 import { StyleSheet, Text, View, SafeAreaView, ScrollView } from "react-native";
 
-export default OneRev = () => {
-  return <Text>hello</Text>;
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+    marginHorizontal: 20,
+  },
+});
+
+export default OneRev = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <Text>hello</Text>
+    </View>
+  );
 };

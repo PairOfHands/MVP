@@ -12,7 +12,7 @@ const DATA = [
   {
     title: "Jim E. John",
     name: "good app good app I like this app",
-    screen: "1-Rev",
+    screen: "Single",
   },
   {
     title: "Original Name",
@@ -44,8 +44,8 @@ export default AppReviews = ({ navigation }) => {
 
     return (
       <TouchableOpacity
-        style={[styles.item]}
         onPress={() => navigation.navigate(item.screen)}
+        style={[styles.item]}
       >
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.name}>{item.name}</Text>
@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: "row",
-    marginTop: StatusBar.currentHeight || 0,
   },
   item: {
     height: 90,
