@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View } from "react-native";
-import OneRev from "../components/oneReview";
+import OneRev from "../components/revName";
 
 function OneRevScreen({ navigation, route }) {
   return (
