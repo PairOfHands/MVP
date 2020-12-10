@@ -17,7 +17,7 @@ export default function App() {
         <Stack.Screen name="Main" component={MainScreen} />
         <Stack.Screen name="Rating" component={RatingScreen} />
         <Stack.Screen name="Review" component={ReviewScreen} />
-        <Stack.Screen name="1-Rev" component={OneRevScreen} />
+        <Stack.Screen name="Single" component={OneRevScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
