@@ -12,27 +12,27 @@ const DATA = [
   {
     title: "Jim E. John",
     name: "good app good app I like this app",
-    screen: "1-Rev"
+    screen: "1-Rev",
   },
   {
     title: "Original Name",
     name: "this app is like my name...Original",
-    screen: "Review"
+    screen: "Review",
   },
   {
     title: "Garet",
     name: "words",
-    screen: "Review"
+    screen: "Review",
   },
   {
     title: "Anon. E Mouse",
     name: "anon words",
-    screen: "Review"
+    screen: "Review",
   },
   {
     title: "Ricardo Eduardo",
     name: "my name",
-    screen: "Review"
+    screen: "Review",
   },
 ];
 
@@ -43,7 +43,10 @@ export default AppReviews = ({ navigation }) => {
     backgroundColor = item.id === selectedId ? "#CBC3C0" : "#CBC3C0";
 
     return (
-      <TouchableOpacity style={[styles.item]}>
+      <TouchableOpacity
+        style={[styles.item]}
+        onPress={() => navigation.navigate(item.screen)}
+      >
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.name}>{item.name}</Text>
       </TouchableOpacity>

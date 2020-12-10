@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View } from "react-native";
-
+import OneRev from "../components/oneReview";
 
 function OneRevScreen({ navigation, route }) {
   return (
@@ -11,8 +11,7 @@ function OneRevScreen({ navigation, route }) {
         backgroundColor: "#E4E7E7",
       }}
     >
-      <WordInput />
-      <AppList navigation={navigation} />
+      <OneRev />
       <StatusBar />
     </View>
   );
