@@ -15,12 +15,16 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 36,
   },
+  smallTitle: {
+    fontSize: 14,
+  },
 });
 
 export default OneRev = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Jim E. John</Text>
+      <Text style={styles.smallTitle}></Text>
     </View>
   );
 };
