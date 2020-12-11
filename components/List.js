@@ -40,7 +40,7 @@ export default AppList = ({ navigation }) => {
     return (
       <TouchableOpacity
         onPress={() => navigation.navigate(item.screen)}
-        style={[styles.item]}
+        style={styles.item}
       >
         <Text style={styles.title}>{item.title}</Text>
       </TouchableOpacity>
@@ -67,14 +67,13 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
   },
   content: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "center",
+    alignItems: "center",
   },
   item: {
     height: 150,
     width: 150,
     padding: 20,
+    margin: 20,
     backgroundColor: "#CBC3C0",
     borderRadius: 8,
     borderWidth: 0.5,
