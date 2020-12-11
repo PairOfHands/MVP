@@ -25,8 +25,8 @@ export default RateRev = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text>was this review helpful</Text>
-      <Button title="Yes" />
-      <Button title="No" />
+      <Button color="#000000" title="Yes" />
+      <Button color="#000000" title="No" />
     </SafeAreaView>
   );
 };
