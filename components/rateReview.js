@@ -23,10 +23,10 @@ const styles = StyleSheet.create({
 
 export default RateRev = () => {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text>was this review helpful</Text>
       <Button title="Yes" />
-      <Button title="No" onPress={() => Alert.alert("Simple Button pressed")} />
-    </View>
+      <Button title="No" />
+    </SafeAreaView>
   );
 };
